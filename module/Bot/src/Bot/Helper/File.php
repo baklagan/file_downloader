@@ -11,7 +11,7 @@ class File
         $info = curl_getinfo($ch);
         curl_close($ch);
         /**
-         * It's better to check content type and length to be sure that we downloading a real image...
+         * It's better to check not only content type but also a length to be sure that we downloading a real image...
          */
         return $info['http_code'] === 200 && in_array($info['content_type'], [
             'image/jpeg',
