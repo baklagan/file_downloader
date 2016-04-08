@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php": ">=5.5",
+        "zendframework/zendframework": "~2.5",
+        "php-amqplib/php-amqplib": "2.5.*"
+    }
+}
